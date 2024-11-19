@@ -45,16 +45,16 @@ mvn clean install
 
 #### Step-3: Run tests
 
-If no environment specified
+If no environment specified:
 mvn test
 
-For local environment
+For local environment:
 mvn test -Denv=local 
 
-For staging environment
+For staging environment:
 mvn test -Denv=staging
 
-For browser selection from CLI
+For browser selection from CLI:
 mvn test -Dbrowser=firefox or mvn test -Dbrowser=webkit
 
 ---
